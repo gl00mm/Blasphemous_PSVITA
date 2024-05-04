@@ -1,4 +1,4 @@
-# Blapshemous port for PS VITA
+# Blasphemous port for PS VITA
 
 This repos contains patch you can apply on Blasphemous Steam data files in order to get the game running on PS VITA.
 **Please read carefully following sections before going on with the patching procedure**
@@ -23,7 +23,7 @@ In order to keep the experience viable, the port comes up with some "restricted 
 ## Functional notes
 
 On a functional point of view, despites concessions listed below, this port comes up with latest version, all DLC's are so part of the port.
-You shouldn't face any blocking issues, I've completed the game will all 3 endings, 100% in NG, more than 100% in NG+, all boss fights achievable as well as all game modes (boss rush, demake).
+You shouldn't face any blocking issues, I've completed the game with all 3 endings, 100% in NG, more than 100% in NG+, all boss fights achievable as well as all game modes (boss rush, demake).
 
 
 ## Concessions
@@ -66,7 +66,7 @@ Port comes up with 3 game modes, some with restrictions to spare some memory usa
 - NO SFX = Sounds are restricted to only ambient background and musics.
 - NO VIDEO = Some cinematics are not played.
 
-Selection of the restricted modes is done at the landing screen (when app is loaded, on the black screen with the big red "Blaphemous") :
+Selection of the restricted modes is done at the landing screen (when app is loaded, on the black screen with the big red "Blasphemous") :
 - Press L to enable "NO SFX" mode
 - Press R to enable "NO VIDEO" mode 
 - Press any other key to go with Full experience mode
@@ -95,7 +95,7 @@ Controls are taken from PS4 versions (as well as buttons icons displayed in game
 ## Patching procedure
 
 - Download Blasphemous vpk from vitadb and install it.
-- Go to the Release page and download ``BlasphemousVitaSteam.zip``.
+- Go to the Release page and download ``BlasphemousVitaSTEAM.zip``.
 - Extract it.
 - Put the game's data folder(```../steamapps/common/Blasphemous/Blasphemous_Data```) inside the extracted folder (Should be Steam version, make sure there is no Config.ini file in files. if there is one, just delete it.)
 - Launch ``ApplyPatch.bat`` and wait.
