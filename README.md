@@ -1,5 +1,5 @@
 
-# Blapshemous port for PS VITA
+# Blasphemous port for PS VITA
 
 This repos contains patch you can apply on Blasphemous Steam data files in order to get the game running on PS VITA.
 **Please read carefully following sections before going on with the patching procedure**
