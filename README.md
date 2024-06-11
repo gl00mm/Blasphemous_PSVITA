@@ -11,41 +11,42 @@ You shouldn't face any blocking issues, I've completed the game will all 3 endin
 
 ## Technical notes
 
-Porting this game to PS Vita was a real challenge (mainly because of the usage of FMOD Studio for audio that consumes almost half of the available resources) and comes therefore with some compromises in order to fit the console technical specifications.
+Here is a video showcasing what you can expect from a technical point of view if you set up your Vita following instructions below :
+[![Showcase video](https://img.youtube.com/vi/wdu1oQsovBY/0.jpg)](https://www.youtube.com/watch?v=wdu1oQsovBY)
+
+Porting this game to PS Vita was a real challenge and comes therefore with some issues and some compromises in order to fit the console technical specifications.
+It is not perfect, and will probably never be, but it's decent enough to enjoy this amazing game.
 
 ## Compromises
 
-- FPS is capped at 30
+- FPS is capped at 30 (can be less in big scenes with few enemies - until they die)
 - A few textures were downsized to fit in PS VITA RAM
 - Voices were ripped off
 - Videos were replaced by sprites slide shows (loss of quality for a few seconds in the game, allowing to benefit from significant more memory for the entire gameplay experience)
-- Sound can be glitchy in the first 2 minutes of game session (then, you are good) and sample rate was reduced to 8k
+- Sound can be glitchy in the first minutes of game session (then, you are good) and sample rate was reduced to 8k
 - Credits were ripped off (the way it was implemented was too heavy for VITA's RAM), but I strongly recommend you to have a look at all the people involved in this amazing game, and support their work.
 - Main menu face & background selection is disabled 
+- Skin selection is disabled
 - Initial load of the app can take up to 2 minutes in order for FMOD Studio to start and load all the sound banks
 
 ## Known issues
 
-ALPHA.2 version comes up with some known issues, none being Blocking or High :
+BETA.1 version comes up with some known issues, none being Blocking or High :
 
 - Some areas have lower fps when there are a lot of enemies.
-- The port has became quite stable but crash could still happen sometimes (my last game sessions crashes occured after around 2 hours of gameplay, which is quite decent to me).
+- The port has became quite stable but crash could still happen after long game session.
 - Reducing the size of the textures led to small gaps between some textures in game, and some pixelated sprites.
-- Shaders are not yet implemented in ALPHA version (skin selection has therefore been disabled from the port for now).
-- Scroll up/down via right stick in inventory is not working. To scroll up/down, use the top/bottom of the touch screen. 
-  This will lock the item selection. In order to unlock it, press TRIANGLE to see the Lore description or press L/R to change inventory menu and go back.
-- Bell carrier enemy behaviour is bugged.
-- One dialogue line or animation were ripped off here and there because some were causing issues.
+- Shaders are not implemented.
 - One elevator is locking the camera below the player when going up. When the elevator stops, simply go left to another screen and come back to have the camera focusing the player again.
 - Buttons icons are not displayed in some UI popups and are replaced by their text label.
+- Interaction icon can sometimes appear even if there is nothing to interact with.
+- Visual glitches during Sierpes boss fight.
 
 ## Controls
 
 Controls are based on the PS4 version of the game (as well as buttons icons displayed in game).
 - L2 is replaced by left side of the touch screen.
 - R2 is replaced by right side of the touch screen.
-- Scroll down via right stick in inventory is not working. To scroll down, use the bottom of the touch screen. 
-  This will lock the item selection. In order to unlock it, press TRIANGLE to see the Lore description or press L/R to change inventory menu and go back.
   
 ## PS VITA Set up
 
